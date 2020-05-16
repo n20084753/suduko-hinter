@@ -7,7 +7,7 @@ A chrome extension to help you fill pencil marks on black cells quickly on sudok
 git clone https://github.com/n20084753/STL.js
 ```
 or
-[Download the source](https://github.com/n20084753/STL.js/archive/master.zip)
+[Download the source](https://github.com/n20084753/suduko-hinter/archive/master.zip)
 
 ```shell
 Open chrome://extensions and toggle developer mode
