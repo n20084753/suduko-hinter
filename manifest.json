@@ -1,0 +1,21 @@
+{
+    "manifest_version": 2,
+    "name": "Sudoku Hinter",
+    "version": "1.0.0",
+    "content_scripts": [{
+        "matches": ["*://*.sudoku.com/*"],
+        "js": ["constant.js", "content.js"]
+    }],
+    "background": {
+        "scripts": ["background.js"],
+        "persistent": false
+    },
+    "icons": {
+        "16": "icon.png",
+        "48": "icon.png"
+    },
+    "permissions": ["contextMenus", "tabs"],
+    "browser_action": {
+        "default_icon": "icon.png"
+    }
+}
